@@ -1,45 +1,169 @@
-@media print
-   {
-    @page {
-        size: A4;
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  body {
+    padding: 0;
+    background: #fff;
+    font-size: 9.5pt;
+    line-height: 1.45;
+  }
+  .wrapper {
+    max-width: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+  .sidebar-wrapper {
+    .profile-container {
+      padding: 22px 16px 18px;
     }
-    body {
-       font-size: 12pt;
+    .avatar {
+      max-width: 80px;
+      margin-bottom: 10px;
     }
+    .name {
+      font-size: 19px;
+    }
+    .tagline {
+      font-size: 11px;
+    }
+    .container-block {
+      padding: 14px 16px;
+    }
+    .container-block-title {
+      margin-bottom: 8px;
+    }
+    .contact-list {
+      font-size: 8.5pt;
+      li {
+        margin-bottom: 7px;
+      }
+      .fas,
+      .fab {
+        width: 16px;
+        margin-right: 2px;
+      }
+    }
+    .contact-list .pdf {
+      display: none;
+    }
+    .education-container .item {
+      margin-bottom: 9px;
+    }
+  }
+  .main-wrapper {
+    padding: 26px 30px;
+    .section {
+      margin-bottom: 22px;
+    }
+    .section-title {
+      margin-bottom: 14px;
+    }
+    .summary p {
+      font-size: 10pt;
+      line-height: 1.5;
+    }
+    .experiences-section .item {
+      margin-bottom: 16px;
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .details {
+      font-size: 9.5pt;
+    }
+    .time {
+      float: none;
+      color: $theme-color !important;
+    }
+  }
+  .footer {
+    display: none;
+  }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
+  /* Bootstrap's print reset strips colours and appends URLs: undo it */
+  a[href]:after {
+    content: none !important;
+  }
+  .wrapper {
+    background: $theme-color !important;
+  }
+  .sidebar-wrapper {
+    background: linear-gradient(180deg, darken($theme-color, 6%) 0%, darken($theme-color, 16%) 100%) !important;
+    color: #fff !important;
+    *,
+    *:before,
+    *:after {
+      color: #fff !important;
     }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
-    .sidebar-wrapper {
-        position: static;
-        float: right;
-        width: 40%;
-        -webkit-print-color-adjust: exact; 
+    .profile-container {
+      background: rgba(0, 0, 0, 0.18) !important;
     }
-
-    .remove-container.container-block {
-       display: none;
+    .container-block {
+      border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
     }
-
-    footer {
-       display: none;
+    .container-block-title,
+    .education-container .meta,
+    .education-container .time,
+    .lang-desc,
+    .tagline {
+      color: rgba(255, 255, 255, 0.72) !important;
     }
-
-    .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
+    .avatar {
+      width: 80px !important;
+      height: 80px;
+      object-fit: cover;
+      filter: none !important;
+      -webkit-filter: none !important;
     }
-
-   .fa-inverse,
-   .fa-inverse:after,
-   .fa-inverse:before {
-     color: #ffffff !important;
-   }
-
+  }
+  .main-wrapper {
+    background: #fff !important;
+    color: $text-color-secondary !important;
+    .section-title {
+      color: darken($theme-color, 15%) !important;
+      border-bottom: 2px solid lighten($theme-color, 52%) !important;
+    }
+    .job-title,
+    .summary p {
+      color: $text-color !important;
+    }
+    .company,
+    .time {
+      color: $theme-color !important;
+    }
+    .time {
+      background: lighten($theme-color, 56%) !important;
+    }
+    .experiences-section .item {
+      border-left: 2px solid lighten($theme-color, 52%) !important;
+    }
+    .experiences-section .item::before {
+      border: 3px solid $theme-color !important;
+      background: #fff !important;
+    }
+    .experiences-section .item:first-of-type::before {
+      background: $theme-color !important;
+    }
+    .fa-stack .fa-circle,
+    .fa-stack .fa-circle:before {
+      color: $theme-color !important;
+    }
+    .fa-inverse,
+    .fa-inverse:before {
+      color: #fff !important;
+    }
+    .chips li {
+      color: darken($theme-color, 8%) !important;
+      background: lighten($theme-color, 58%) !important;
+      border: 1px solid lighten($theme-color, 48%) !important;
+    }
+    .skill-group-title {
+      color: $text-color !important;
+    }
+  }
 }

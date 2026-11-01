@@ -21,13 +21,13 @@
 
     {% if sidebar.location %}
     <li class="location"><i class="fas fa-earth-europe"></i>
-      <a href=""> {{ sidebar.location }}</a>
+      <span>{{ sidebar.location }}</span>
     </li>
     {% endif %}
 
     {% if sidebar.timezone %}
     <li class="timezone"><i class="fas fa-clock"></i>
-      <a href="https://worldtimeapi.org/timezone/{{ sidebar.timezone }}" target="_blank">{{ sidebar.timezone }} Timezone</a>
+      <span>{{ sidebar.timezone }} timezone</span>
     </li>
     {% endif %}
 
@@ -118,7 +118,7 @@
 
     {% if sidebar.pdf %}
     <li class="pdf"><i class="fas fa-file-pdf"></i>
-      <button class="print-button-like-anchor" onclick="{window.print()}">PDF</button>
+      <a href="{{ site.baseurl }}/assets/Albert_Hernandez_Plaza_CV.pdf" download>Download PDF</a>
     </li>
     {% endif %}
 

@@ -5,8 +5,8 @@ sidebar:
 
   # Profile information
   name: [ Albert Hernández Plaza ]
-  tagline: Full Stack Developer<BR>(Java - JS - React) <i class="fa-solid fa-laptop-code"></i>
-  avatar: albert.webp  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  tagline: Software Engineer<BR>Frontend &amp; Full Stack
+  avatar: albert-256.jpg  # place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: [ ahernandezplaza@gmail.com ]
@@ -14,7 +14,7 @@ sidebar:
   timezone: Europe/Madrid
   linkedin: [ ahernandezplaza ]
   github: [ jercollini ] 
-  pdf: print pdf :)
+  pdf: true
 
   languages:
     title: Languages
@@ -26,11 +26,13 @@ sidebar:
         level: Native
 
       - idiom: English
-        level: Professional
+        level: Professional, daily working language
 
   interests:
     title: Interests
     info:
+      - item: AI and emerging technologies
+
       - item: Indoor climbing
 
       - item: Diving and snorkeling
@@ -50,9 +52,11 @@ sidebar:
 career-profile:
   title: Professional Profile
   summary: |
-    Full Stack Developer passionate about technology with a strong interest in the latest web development trends.<BR><BR>
-    Experience in creating scalable and high-performance applications for the medical and insurance sectors. <BR><BR>
-    Proficient in Java, JS, React, and agile methodologies. Constantly updating my knowledge to offer innovative and cutting-edge solutions.
+    Software engineer with **10+ years** building and maintaining business-critical web applications in **healthcare, insurance and laboratory** environments.
+
+    Started as a Java full stack developer and now focus on **frontend with React** in **Kubernetes-based** platforms. I care about code that stays maintainable, solid testing and sharing knowledge with the team.
+
+    **AI enthusiast:** I closely follow the latest developments and like to put them into practice. This very CV was redesigned using AI-assisted tooling.
 
 education:
   title: Education
@@ -79,84 +83,53 @@ experiences:
       time: Sep 2025 - Present
       company: Capgemini for Roche
       details: |
-        - **Laboratory Platform:** Working on the platform application for laboratory instruments, currently focused on the **frontend**.
-        - **Cloud-Native Environment:** Developing and testing in a **Kubernetes** environment, using local **kind** clusters for deployments.
+        - Frontend development of a **platform application for laboratory instruments**.
+        - Build, deploy and test in a **Kubernetes** environment, using local **kind** clusters.
       technologies: React, JavaScript, Kubernetes, kind, Git
     - role: Fullstack Software Engineer
       time: 2019 - Sep 2025
       company: Stacks for Cegedim Santé
       details: |
-        As a **Fullstack Engineer**, I am an integral part of the team responsible for the **management and continuous improvement** of *Mon Logiciel Médical*. I work closely with designers, product owners, and other developers to deliver innovative solutions that meet the needs of healthcare professionals.
+        Part of the team that maintains and evolves *Mon Logiciel Médical*, a medical practice management application used by healthcare professionals.
 
-        Currently, I am leading the **digital transformation** and **performance optimization** of the application by implementing **new technologies** and **refactoring existing code**. Additionally, I am responsible for incident resolution and maintenance of both **frontend** and **backend** components.
-
-        My focus is on:
-
-        - **Code Quality:** Ensuring that each delivery meets the highest quality standards.
-        - **End-User Satisfaction:** Ensuring a smooth and optimal user experience.
-        - **Mentorship:** Supporting new team members, promoting knowledge sharing, and best development practices.
-      technologies: React, Java 7 8 17, Hibernate, Springboot, JavaScript, jQuery, JSP, REST, Oracle, IntelliJ, Visual Studio, Jira, Kubernetes, Git, Jenkins
+        - **Digital transformation:** led the introduction of **new technologies** (React) and the **performance optimisation** and refactoring of existing code.
+        - **Full stack ownership:** incident resolution and maintenance of frontend and backend (Java 7/8/17, Spring Boot, Hibernate, Oracle).
+        - **Quality:** code reviews, delivery standards and a focus on a smooth end-user experience.
+        - **Mentoring:** onboarding of new team members and promotion of good development practices.
+      technologies: React, Java 7/8/17, Spring Boot, Hibernate, JavaScript, jQuery, JSP, REST, Oracle, Kubernetes, Git, Jenkins, Jira
     - role: Fullstack Java Developer
       time: 2017 - 2019
       company: Sopra Steria for Allianz
       details: |
-        - **Agile Development:** Active participation in Scrum teams for web application development.
-        - **Continuous Improvement:** Proactive incident management and optimization of existing applications.
-        - **Automation:** Created a Maven archetype to streamline the start of new projects.
-      technologies: Java 7, Hibernate, Spring MVC, JavaScript, jQuery, JSP/JSTL, REST, SQL, Eclipse Juno/Oxygen, Visual Studio, Jira, RTC, Git, Jenkins
+        - Developed web applications in **Scrum** teams and handled incident management and optimisation of existing systems.
+        - Created a **Maven archetype** that standardised and sped up the start of new projects.
+      technologies: Java 7, Hibernate, Spring MVC, JavaScript, jQuery, JSP/JSTL, REST, SQL, Git, Jenkins, Jira
     - role: Fullstack Java Developer
       time: 2015 - 2017
       company: Setting Consultoría for Banc de Sang i Teixits (Healthcare)
       details: |
-        - **Analysis and Design:** Requirement gathering and architecture solution design.
-        - **Backend Development:** Developed backend components using Struts2, Spring, Hibernate, and other technologies.
-        - **Frontend Development:** Designed and developed user interfaces using JSF, PrimeFaces, and JavaScript.
-        - **Optimization:** Performance improvement and issue resolution in existing applications.
-      technologies: Java 4/7, Struts 1.1, Spring, Hibernate, JPA, JSF, PrimeFaces, JavaScript, PL/SQL, eProgesa, Oracle, Eclipse Luna/Neon
-    - role: Remote IT Support
-      time: 2010 - 2015
-      company: Costaisa for Asepeyo
-    - role: IT Support/Helpdesk
-      company: Uniland Cementera S.A.
-      time: 2008 - 2009
-    - role: IT Support/Helpdesk
-      company: Telefónica Soluciones
-      time: 2007 - 2008
-    - role: IT Support
-      company: Sede del Poder Judicial de Barcelona (C.G.P.J.)
-      time: 2007
-    - role: Network Maintenance and Administration Technician
-      company: Disvirtual S.L.
-      time: 2007
-    - role: Peripherals Repair Technician for Taxis
-      company: Taxímetros Barcino S.L.
-      time: 2006 - 2008
-
+        - Requirements analysis and solution design for the blood and tissue bank information systems.
+        - Backend with Struts, Spring and Hibernate; user interfaces with JSF, PrimeFaces and JavaScript.
+        - Performance improvements and issue resolution in existing applications.
+      technologies: Java 4/7, Struts, Spring, Hibernate, JPA, JSF, PrimeFaces, JavaScript, PL/SQL, Oracle
+    - role: IT Support and Systems Technician
+      time: 2006 - 2015
+      company: Asepeyo (remote support), Uniland, Telefónica Soluciones, Consejo General del Poder Judicial and others
+      details: |
+        Remote and on-site support, helpdesk and network maintenance. The technical base that led me into software development.
 
 skills:
   title: Skills and Competencies
-
-  toolset:
-    - name: Java
-      level: 98%
-
-    - name: Javascript & jQuery
-      level: 98%
-    
-    - name: React
-      level: 80%
-
-    - name: HTML5 & CSS
-      level: 95%
-
-    - name: SQL - Oracle - PL/SQL
-      level: 90%
-
-    - name: Git (bitbucket - gitlab - github)
-      level: 98%
-
-    - name: Jenkins - Gitlab-ci
-      level: 65%
-    
-    - name: Kubernetes 
-      level: 50%
+  groups:
+    - name: Frontend
+      items: [React, TypeScript, JavaScript, HTML5, CSS, jQuery]
+    - name: Backend
+      items: [Java 8/17, Spring Boot, Spring MVC, Hibernate, REST]
+    - name: Data
+      items: [Oracle, SQL, PL/SQL]
+    - name: Testing
+      items: [Vitest]
+    - name: Cloud and DevOps
+      items: [Kubernetes, kind, CI/CD, Jenkins, GitLab CI]
+    - name: Ways of working
+      items: [Scrum, Code review, Mentoring, Git, Jira]

@@ -8,17 +8,14 @@
     {{ skills.title }}
   </h2>
 
-  <div class="skillset">
-    {% for skill in skills.toolset %}
-    <div class="item">
-      <h3 class="level-title">{{ skill.name }}</h3>
-      {% assign skill_level = 'width: ' | append: skill.level %}
-      <div class="level-bar">
-        <div class="level-bar-inner" style="{{skill_level}}"></div>
-      </div>
-      <!--//level-bar-->
+  <div class="skill-groups">
+    {% for group in skills.groups %}
+    <div class="skill-group">
+      <h3 class="skill-group-title">{{ group.name }}</h3>
+      <ul class="chips list-unstyled">
+        {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+      </ul>
     </div>
-    <!--//item-->
     {% endfor %}
   </div>
 </section>

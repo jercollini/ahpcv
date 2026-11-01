@@ -2,19 +2,19 @@
 
 # Site Settings
 title: CV Albert Hernández Plaza
-url: 'http://webjeda.com'
+url: 'https://online-cv.webjeda.com'
 
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
 
-description: Albert Hernández Resume
+description: Albert Hernández Plaza - Software Engineer (Frontend and Full Stack). React, Java, Kubernetes. Barcelona.
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: oceanstale # blue turquoise green berry orange ceramic teal oceanstale
 chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Tracker
-analytics: UA-83979019-1
+# Tracker: removed (Universal Analytics was discontinued in 2023). Add a GA4 id (G-XXXX) here to re-enable.
+#analytics: G-XXXXXXXXXX
 
 # Sass/SCSS
 sass:
