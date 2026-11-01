@@ -75,8 +75,15 @@ education:
 experiences:
   title: Professional Experience
   info:
+    - role: Software Engineer (Frontend)
+      time: Sep 2025 - Present
+      company: Capgemini for Roche
+      details: |
+        - **Laboratory Platform:** Working on the platform application for laboratory instruments, currently focused on the **frontend**.
+        - **Cloud-Native Environment:** Developing and testing in a **Kubernetes** environment, using local **kind** clusters for deployments.
+      technologies: React, JavaScript, Kubernetes, kind, Git
     - role: Fullstack Software Engineer
-      time: 2019 - Present
+      time: 2019 - Sep 2025
       company: Stacks for Cegedim Santé
       details: |
         As a **Fullstack Engineer**, I am an integral part of the team responsible for the **management and continuous improvement** of *Mon Logiciel Médical*. I work closely with designers, product owners, and other developers to deliver innovative solutions that meet the needs of healthcare professionals.
